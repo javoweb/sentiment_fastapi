@@ -13,4 +13,5 @@ RUN pip install -U pip --no-cache-dir
 WORKDIR /workspaces/midterm
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt --no-cache-dir
+RUN pip install black flake8 isort --no-cache-dir
 USER vscode
