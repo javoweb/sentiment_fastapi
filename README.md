@@ -1,4 +1,4 @@
-In a rush Sentiment Analysis service using [Hugging Face](https://huggingface.co/) and [FastAPI](https://fastapi.tiangolo.com/)
+In a rush Sentiment Analysis service using [Hugging Face](https://huggingface.co/) and [FastAPI](https://fastapi.tiangolo.com/). The model used is a Bert-based sentiment analysis [model](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).
 
 # Installation
 
