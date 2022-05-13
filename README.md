@@ -93,10 +93,8 @@ curl -X 'POST' \
 You will get a response similar to the following
 
 ```json
-[
-  {
-    "label": "POSITIVE",
-    "score": 0.9998573064804077
-  }
-]
+{
+  "label": "POSITIVE",
+  "score": 0.9998573064804077
+}
 ```
