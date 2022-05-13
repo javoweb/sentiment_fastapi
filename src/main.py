@@ -15,4 +15,4 @@ def health() -> str:
 def sentiment_analysis_endpoint(request: PredictionRequest) -> PredictionResponse:
     sentiment_query_sentence = request.query_string
     sentiment = sentiment_model(sentiment_query_sentence)
-    return sentiment
+    return sentiment[0]

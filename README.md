@@ -43,12 +43,13 @@ pip install -r requirements.txt
 Run the server
 
 ```bash
+cd src
 uvicorn main:app --port 8000
 ```
 
 # Usage
 
-To know how to use the service consult the swagger documentation going to http://127.0.0.1:8000/docs
+To know more about other endpoints, consult the OpenAPI documentation in http://127.0.0.1:8000/redoc or try out the swagger interactive documentation in http://127.0.0.1:8000/docs
 
 * **Sentiment analysis endpoint**
 
@@ -64,7 +65,8 @@ To know how to use the service consult the swagger documentation going to http:/
 
 | Code | Body | Description |
 | --- | --- | --- |
-| 200 | <code>[{"label": "Sentiment label", "score": "Sentiment score(confidence)"}]</code> | Response with the sentiment label `POSITIVE`, `NEGATIVE` and confidence level |
+| 200 | <code>{"label": "Sentiment label", "score": "Sentiment score(confidence)"}</code> | Response with the sentiment label `POSITIVE`, `NEGATIVE` and confidence level |
+| 422 | <code>{"detail": {"loc": [], "msg": "Message", "type": "Type"}}</code> | Validation error with calidation error details. |
 
 
 ## Sending request using curl
