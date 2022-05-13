@@ -1,4 +1,4 @@
-In a rush Sentiment Analysis service using [Hugging Face](https://huggingface.co/) and [FastAPI](https://fastapi.tiangolo.com/). The model used is a Bert-based sentiment analysis [model](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).
+In-a-rush Sentiment Analysis service using [Hugging Face](https://huggingface.co/) and [FastAPI](https://fastapi.tiangolo.com/). The model used is a Bert-based sentiment analysis [model](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).
 
 # Installation
 
@@ -25,13 +25,13 @@ Install [conda](https://anaconda.cloud/support-center/installers) and [pytorch](
 Create the environment
 
 ```bash
-conda create -n sentiment-analysis python=3.8 pip
+conda create -n sentiment_analysis python=3.8 pip
 ```
 
 Activate the environment
 
 ```bash
-conda activate fastapi_env
+conda activate sentiment_analysis
 ```
 
 Install requirements
