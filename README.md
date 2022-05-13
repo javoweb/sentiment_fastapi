@@ -1,14 +1,22 @@
-In-a-rush Sentiment Analysis service using [Hugging Face](https://huggingface.co/) and [FastAPI](https://fastapi.tiangolo.com/). The model used is a Bert-based sentiment analysis [model](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english).
+<p align = "center" draggable=”false” ><img src="https://user-images.githubusercontent.com/4565451/168209649-f8cb40d1-8de0-4cbe-894a-aa2217ee59b3.png"
+     width="200px"
+     height="auto"/>
+</p>
+
+
+
+In-a-rush Sentiment Analysis service using [Hugging Face](https://huggingface.co/) 🤗 and [FastAPI](https://fastapi.tiangolo.com/). The model used is a Bert-based sentiment analysis [model](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english). 🧠
 
 # Installation
 
 ## Using Docker
 
-Install [Docker](https://docs.docker.com/engine/install/)
+Install [Docker](https://docs.docker.com/engine/install/) 🐳
 
 Build the docker image:
 
 ```bash
+
 docker build -t sentiment-container .
 ```
 
