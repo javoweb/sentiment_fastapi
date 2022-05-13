@@ -20,7 +20,7 @@ Build the docker image:
 docker build -t sentiment-container .
 ```
 
-Run the docker container with the service:
+Run the docker container with the service. The container might take some time to download the models before starting serving.
 
 ```bash
 docker run -dp 8000:8000 sentiment-container
